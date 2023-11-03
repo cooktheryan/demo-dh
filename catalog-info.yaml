@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-dh
+  description: A cool go app
+  annotations:
+    backstage.io/kubernetes-id: demo-dh
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: cooktheryan/demo-dh
+spec:
+  type: app
+  lifecycle: production
+  owner: rhdh
